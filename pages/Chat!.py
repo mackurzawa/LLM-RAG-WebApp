@@ -55,7 +55,6 @@ def ask_question(query_engine):
     response = query_engine.query(query)
     st.write(response)
 
-
 token = st.text_input('Enter your HuggingFace token:')
 
 if token:
